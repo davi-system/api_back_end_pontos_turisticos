@@ -9,8 +9,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("NovaPolitica", app =>
     {
         app.AllowAnyOrigin()
-        .AllowAnyHeader().
-        AllowAnyMethod();
+        .AllowAnyHeader()
+        .AllowAnyMethod();
     });
 });
 
